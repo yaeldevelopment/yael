@@ -1,0 +1,19 @@
+<div class="row container sample-website-grid">
+       @for (site of sampleWebsites; track $index){
+ <div    class="col-12 col-md-6"> <a
+    target="_blank"
+    [href]="site.url"
+    class=" card back_img SampleWebsite"
+    [style.backgroundImage]="'url(' + site.image + ')'"
+  >
+    @if (site.label){
+    <div
+   
+      class="upgrade-box"
+      [ngStyle]="{ background: site.labelColor || '#444' }"
+    >
+      {{ site.label }}
+    </div>}
+  </a></div>
+}
+</div>

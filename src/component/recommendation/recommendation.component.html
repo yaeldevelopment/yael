@@ -1,0 +1,25 @@
+<div 
+  class="recommendation-hint" 
+  role="button" 
+  tabindex="0"
+  (click)="scrollToRecommendation()" 
+  (keyup.enter)="scrollToRecommendation()" 
+  aria-label="מעבר להמלצות" 
+  title="מעבר להמלצות"
+>
+  <span class="text">מעבר להמלצות</span>
+  <span class="arrow" aria-hidden="true">&#x2193;</span>
+</div>
+<section id="recommendation-section" class="testimonials-section container" aria-labelledby="testimonials-title">
+  <h2 id="testimonials-title">לקוחות מספרים</h2>
+
+  <div class="slider" >
+        @for (testimonial of testimonials; track $index) {
+    <div class="testimonial-card" >
+      <img [src]="'./assets/' + testimonial.image" [alt]="'תמונה של ' + testimonial.name" />
+      <h3>{{ testimonial.name }}</h3>
+      <blockquote>{{ testimonial.quote }}</blockquote>
+    </div>
+  }
+  </div>
+</section>

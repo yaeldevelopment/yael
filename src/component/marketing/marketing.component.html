@@ -1,0 +1,12 @@
+<div class="marketing-bar">
+  <h2>למה לבחור בי?</h2>
+  <div class="row container">
+        @for (feature of features; track $index) {
+    <div class="item col-12 col-md-3 text-center">
+      <i class="bi fs-1" [ngClass]="feature.icon"></i>
+      <p>{{ feature.text }}</p>
+    </div>
+}
+  </div>
+</div>
+
