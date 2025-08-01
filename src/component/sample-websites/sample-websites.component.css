@@ -1,0 +1,33 @@
+.sample-website-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  gap: 2rem 0;
+}
+.sample-website-grid a.back_img {
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.upgrade-box {
+  color: white;
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  max-width: 180px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.sample-website-grid {
+  margin-top: 2rem;
+}/*# sourceMappingURL=sample-websites.component.css.map */

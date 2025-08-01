@@ -1,0 +1,32 @@
+@charset "UTF-8";
+.not-found {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: var(--background-light);
+  color: var(--text-dark);
+}
+.not-found h1 {
+  font-size: 2.5rem;
+  color: #c0392b; /* צבע אדום עז, אפשר לשנות למשתנה אם תרצי */
+  margin-bottom: 20px;
+}
+.not-found p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+.not-found .back-home-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+.not-found .back-home-link:hover, .not-found .back-home-link:focus {
+  background-color: var(--secondary-color);
+  outline: 2px solid var(--secondary-color);
+  outline-offset: 4px;
+}/*# sourceMappingURL=not-found.component.css.map */

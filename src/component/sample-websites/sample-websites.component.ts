@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 })
 export class SampleWebsitesComponent {
 sampleWebsites = [{
-    url: 'https://yaelajami.netlify.app/',
+    url: 'https://miryam-taxadvisor.netlify.app/',
     image: './assets/taxadvisor..png',
     label: 'לקוח פעיל',
     labelColor: '#2c8f4a'
