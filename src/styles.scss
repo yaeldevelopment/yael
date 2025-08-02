@@ -1,10 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 @import "bootstrap/scss/bootstrap";
 
-body .uwy.userway_p1 .userway_buttons_wrapper {
-  right: calc(100vw - 50px);
+body .uwy.userway_p1 .userway_buttons_wrapper{
+      right: calc(100vw - 50px) !important;
 }
-
 :root {
   --primary-color: #7f4f4f;
   --secondary-color: #c4a69f;
