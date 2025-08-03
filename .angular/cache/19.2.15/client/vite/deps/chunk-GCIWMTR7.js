@@ -670,9 +670,9 @@ var HttpRequest = class _HttpRequest {
    */
   reportProgress = false;
   /**
-   * Whether this request should be sent with outgoing credentials (cookies).
+
    */
-  withCredentials = false;
+
   /**
    * The expected response type of the server.
    *
